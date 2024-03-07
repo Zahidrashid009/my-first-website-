@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        
+        <!-- Bootstrap CDN (CSS) -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+        <!-- Bootstarp CDN (Js) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap CDN (Icons) -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- External CSS -->
+        <link rel="stylesheet" href="STYLE.CSS">
+
+    </head>
+    <body>
+        <header>
+            <!-- Navigation Bar -->
+            <nav class="navbar navbar-expand-lg bg-primary text-light">
+                <div class="container">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="https://d1jnx9ba8s6j9r.cloudfront.net/imgver.1708613694/img/Edureka_V_W_logo.webp" alt="Edureka_Logo" height="40">
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <form class="d-flex" role="search">
+                            <div class="input-group">
+                                <input type="text" class="form-control search" placeholder="Enter Course, Category or keyword..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <span class="input-group-text color ps-4" id="basic-addon2"><i class="bi bi-search"></i></span>
+                            </div>
+                        </form>
+
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                            <li class="nav-item">
+                                <a class="nav-link text-light me-3" aria-current="page" href="./homepage.html">Home</a>
+                            </li>
+                           
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-light me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Courses
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./frontend.html">Frontend</a></li>
+                                    <li><a class="dropdown-item" href="#">Backend</a></li>
+                                    <li><a class="dropdown-item" href="#">Database</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link active text-light me-3" href="./contact.html">Contact Us</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link disabled text-secondary" aria-disabled="true">Login</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <!-- Contents -->
+            <h1 class="my-3 text-primary">Contact Us</h1>
+
+            <div class="row mt-3">
+
+                <!-- Contact Us Form -->
+                <div class="col mt-2">
+                    <form class="border-end border-secondary pe-5">
+                        <h3 style="text-align: center;">SEND US A MESSAGE</h3>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" placeholder="Mobile Number">
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Your Query</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+                    </form>
+                    
+                </div>
+
+                <!-- Address -->
+                <div class="col mt-2">
+                    <h3 style="text-align: center;">Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.856020799826!2d77.694367!3d12.981059300000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1209f2688e97%3A0x3d236f4d15d8351e!2sEdureka!5e0!3m2!1sen!2sin!4v1708880645570!5m2!1sen!2sin" width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+
+        <footer class="bg-secondary mt-5">
+            <!-- Footer -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-5 pt-5">
+                        <p class="text-light">© 2024 Brain4ce Education Solutions Pvt. Ltd. All rights Reserved.</p>
+                    </div>
+                    <div class="col text-light text-center pt-5">
+                        <p>Terms & Conditions</p>
+                    </div>
+                    <div class="col text-light text-center pt-5">
+                        <p>Legal & Privacy</p>
+                    </div>
+                    <div class="col-3 text-center pt-5">
+                        <a href="#" target="_blank" class="text-light fs-4 ms-4"><i class="bi bi-facebook"></i></a>
+                        <a href="#" target="_blank" class="text-light fs-4 ms-4"><i class="bi bi-twitter"></i></a>
+                        <a href="#" target="_blank" class="text-light fs-4 ms-4"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" target="_blank" class="text-light fs-4 ms-4"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </footer>
+    </body>
+</html>
